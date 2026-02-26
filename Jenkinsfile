@@ -8,7 +8,7 @@ pipeline {
     environment {
           PATH = "/usr/local/bin:${env.PATH}"
           DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
-          DOCKERHUB_REPO = 'saileshk1103/OTP1_inclass_assignment'
+          DOCKERHUB_REPO = 'saileshk1103/otp1_inclass_assignment'
           DOCKER_IMAGE_TAG = 'v1'
     }
 
